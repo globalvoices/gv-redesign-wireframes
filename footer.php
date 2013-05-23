@@ -4,7 +4,7 @@
 		<div class='panel'>
 			<h3>PAGE NAVIGATION</h3>
 			<ul class='side-nav'>
-				  <?php include('menu-list.php');?>
+				  <?php include('_menu-list.php');?>
 			</ul>
 		</div>
 	</div>

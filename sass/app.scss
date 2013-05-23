@@ -46,6 +46,10 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
+
+.show-for-mobile {
+	display:none;
+}
 @media #{$mobilescreen} {
 	.large-6 {
 		position: relative;
