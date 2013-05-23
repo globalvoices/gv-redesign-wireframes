@@ -4,13 +4,7 @@
 		<div class='panel'>
 			<h3>PAGE NAVIGATION</h3>
 			<ul class='side-nav'>
-				<li>Menu Item</li>
-				<li>Menu Item</li>
-				<li>Menu Item</li>
-				<li>Menu Item</li>
-				<li>Menu Item</li>
-				<li>Menu Item</li>
-				<li>Menu Item</li>
+				  <?php include('menu-list.php');?>
 			</ul>
 		</div>
 	</div>

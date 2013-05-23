@@ -50,9 +50,8 @@
 						</div>
 
 						<ul id="drop-menu" class="f-dropdown" data-dropdown-content>
-						  <li><a href="#">This is a link</a></li>
-						  <li><a href="#">This is another</a></li>
-						  <li><a href="#">Yet another</a></li>
+						  <?php include('menu-list.php');?>
+						  
 						</ul>
 
 						
@@ -131,8 +130,7 @@
 		</div>
 		<div class='large-12 columns'>
 			<ul class='button-group'>
-				<li><a href='/category.php' class="small button secondary">CATEGORY LINK</a></li>
-				<li><a href='#' class="small button secondary">TOPIC1</a></li>
+				<li><a href='#' class="small button secondary">TOPICS</a></li>
 				<li><a href='#' class="small button secondary">TOPIC2</a></li>
 				<li><a href='#' class="small button secondary">TOPIC3</a></li>
 				<li><a href='#' class="small button secondary">TOPIC4</a></li>
