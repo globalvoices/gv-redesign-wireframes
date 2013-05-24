@@ -174,5 +174,6 @@ function phpsum_words($min = 1, $max = 1) {
 			<div class="button dropdown secondary">All Topics</div>
 		</div>-->
 	</div>
+	<hr>
 
 
