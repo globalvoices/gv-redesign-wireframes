@@ -61,7 +61,8 @@
 	</div>
 
 </div>		
-	<div class='row'>
+<hr>
+<div class='row'>
 		<div class="large-12 columns">
 			<h3>LATEST POSTS BY AUTHOR</h3>
 		</div>

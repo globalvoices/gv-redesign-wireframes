@@ -3,15 +3,27 @@
 
 <div class="row">
 	<div class="small-12 columns">
-		<img src="http://placehold.it/750x150&text=special+category+logo" style='margin-bottom:1em;'>
-	</div>
-<!--	<div class='small-4 columns'>
-		<div class='panel'>
-			ddd
+		<h2 class="inline-block">
+			<a href=''>CATEGORY NAME</a> or <a href=''><?php echo phpsum_words(1, 3)?></a> or <a href=''><?php echo phpsum_words(1, 3)?></a>
+		</h2>
+		<p>Posts in any of these categories. <i>[replace "any" with "all" on this line and "or" with "and" above for union instead of intersection]</i></p>
+		<div class='panel hide-for-small'>
+			<ul class='inline-list'>
+				<?php
+				$i=0;				
+				while ($i < 26) :
+					$lipsum_name = phpsum_words(1, 2);
+					echo "<li><a href='#'>$lipsum_name</a></li>";
+					$i++;
+				endwhile;
+				?>
+				<li><i>[Child Categories of the various categories. All together? Separate?]</i></li>
+			</ul>
 		</div>
-	</div>-->
+		
+	</div>
 	<div class="small-12 columns hide-for-mobile">
-		<span class="button small secondary"><a>RSS for Category</a></span>
+		<span class="button small secondary"><a>RSS for these categories</a></span>
 		<span class="button small secondary dropdown inline-block" style='margin-left:1em' data-dropdown="drop-faceted">
 			Refine results
 		</span>
@@ -31,7 +43,7 @@
 
 		<form class='custom inline-block'>
 			 <select id="customDropdown1" class="medium">
-			   <option>Monthly Archives for Category</option>
+			   <option>Monthly Archives for these categories</option>
 			   <option>Month</option>
 			   <option>Month</option>
 			   <option>Month</option>
@@ -44,7 +56,7 @@
 		</span>
 
 		<div id="drop-cat-tools" class="f-dropdown medium content" data-dropdown-content>
-					<span class="button small secondary"><a>RSS for Category</a></span>
+					<span class="button small secondary"><a>RSS for these categories</a></span>
 
 		  	<form class='custom inline-block'>
 			 <select id="customDropdown1" class="medium">
@@ -56,7 +68,7 @@
 			</form>	
 			<form class='custom inline-block'>
 			 <select id="customDropdown1" class="medium">
-			   <option>Monthly Archives for Category</option>
+			   <option>Monthly Archives for these categories</option>
 			   <option>Month</option>
 			   <option>Month</option>
 			   <option>Month</option>
@@ -73,8 +85,8 @@
 		<div class="large-4 columns">
 
 			<div class="panel">
-				<p>[Content from description field of category. Relevant editors, special funders etc.]</p>
-				<p>[IF NO CUSTOM CONTENT: ??? Homepage promo box? Post headlines?]</p>
+				<p>[We can't show category description here because it's likely to be way too long if we show one for each of the multi-categories.]</p>
+				<p>[So what to show??? Homepage promo box? Post headlines?]</p>
 			</div>
 
 
@@ -84,7 +96,7 @@
 		
 		<div class='row'>
 			<div class="large-12 columns">
-				<h3>LATEST POSTS ABOUT CATEGORY NAME</h3>
+				<h3>LATEST POSTS <del>ABOUT CATEGORY NAME</del></h3>
 			</div>
 			<?php include('_post-summaries.php') ?>
 

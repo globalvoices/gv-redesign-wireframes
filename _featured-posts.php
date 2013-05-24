@@ -1,4 +1,4 @@
-		<div class="large-8 columns featured-posts">
+		<div class="large-8 columns featured-posts hide-for-mobile">
 
 			<!-- Grid Example -->
 			<div class="row">

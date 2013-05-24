@@ -27,5 +27,4 @@
 			<?php include('_post-summaries.php') ?>
 		</div>
 		</div>	
-		<hr >
 <?php include('footer.php');?>

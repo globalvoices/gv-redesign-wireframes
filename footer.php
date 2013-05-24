@@ -1,4 +1,4 @@
-  
+<hr>
 <div class='row'>
 	<div class='large-3 small-6 mobile-12 columns'>
 		<div class='panel'>

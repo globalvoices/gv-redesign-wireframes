@@ -4,7 +4,7 @@
 
 	<div class="row ">
 		<div class='large-12 columns'>
-			<h2>Page Title <?php echo phpsum_words(2, 2)?></h2>
+			<h2>[Page Title] About these Wireframes</h2>
 		</div>
 		<div class='post-column large-8 columns'>
 			<div class='row'>
@@ -41,8 +41,46 @@
 					<img src="http://placehold.it/30x30&text=g+" style='margin-bottom:.5em;'>
 				</div>
 				<div class='post-content large-11 columns'>
+					<p>
+						These wireframes are intended to be design-agnostic representations of the architectural layout
+						of the key templates in the Global Voices theme. In the final product elements should look <i>how</i>
+						they looks here, but they should be in roughly the positions where they are shown here. 
+					</p>
+					<p>
+						The <a href='http://foundation.zurb.com/'>Foundation</a> CSS/JS framework was used because it allows rapid prototyping of different layouts
+						and supports responsive designs that let us see how elements will re-organize and change at
+						different viewport sizes.
+					</p>
+					<h3>List of Wireframes</h3>
+					<p>
+						Note that you can access the full list of wireframes at any time using the <b>Menu</b>
+						button in the header or the list of links in the footer. 
+					</p>
+					<ul>
+						<?php include('_menu-list.php');?>
+					</ul>
 					
-					<?php echo phpsum(50, 100, 3)?>
+					<h3>Assessing Responsive Changes</h3>
+					<p>
+						When inspecting a particular template, please take the time to resize your browser window 
+						to see how things change. All elements will resize, some (sidebars mostly) will move far 
+						away from their original locations and some will dissappear completely or be replaced 
+						with buttons that exposed the content which is now collapsed by default. 
+					</p>
+					<p>
+						These wireframes have three main breakpoints (places where the responsive
+						layout changes). One for desktop computers with three columns, one for smaller 
+						laptops and tablets with two columns and severely-restricted layout with a 
+						single column and many features hidden for mobile devices. 
+					</p>
+					<h3>The header is omnipresent</h3>
+					<p>
+						The header (above the first horizontal rule) is constant throughout the site, making it
+						both the most important element to decide on and the most controversial. The footer has
+						the same property. Any feedback about the header or footer should be addressed generally 
+						rather than as part of a particular template. When considering a specific 
+						template please think about it only in terms of what is between the header and footer. 
+					</p>
 					
 					<p>
 						<i>Posted on [date] &middot; <a>View original version</a></i> &middot;
@@ -117,17 +155,20 @@
 			  
 			</div>
 			
-			<!--<h3>IDENTITY/PROJECTS</h3>-->
+			<h3>Child/Sibling Pages</h3>
+			<div class='panel'>
+				<ul>
+					<?php include('_menu-list.php');?>
+				</ul>
+			</div>
+			<h3>Other Pages</h3>
+			<div class='panel'>
+				<ul>
+					<?php include('_menu-list.php');?>
+				</ul>
+			</div>
 
 			<h3>Recommended Posts 1</h3>
-			<div class="panel">
-				<h4>HEADLINE</h4>
-				<h4>HEADLINE</h4>
-				<h4>HEADLINE</h4>
-				<h4>HEADLINE</h4>
-				<h4>HEADLINE</h4>
-			</div>
-			<h3>Recommended Posts 2</h3>
 			<div class="panel">
 				<h4>HEADLINE</h4>
 				<h4>HEADLINE</h4>
@@ -150,5 +191,4 @@
 		</div>
 	</div>
 </div>	
-		<hr >
 <?php include('footer.php');?>

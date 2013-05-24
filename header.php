@@ -15,6 +15,12 @@ function phpsum_words($min = 1, $max = 1) {
 	));
 }
 
+/**
+ * Define settings that can be used to alter behavior
+ */
+$header_taxonomy_menus = true;
+//$full_regions = true;
+
 ?>
 <!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
@@ -57,11 +63,13 @@ function phpsum_words($min = 1, $max = 1) {
 	</div>	
 	<div class="row">
 		<div class="large-4 small-6 mobile-12 columns">
-			<img src="http://placehold.it/300x100&text=LOGO" style="margin-bottom:1.25em">
+			<a href='index.php'>
+				<img src="http://placehold.it/300x100&text=LOGO" style="margin-bottom:1.25em">
+			</a>	
 
 		</div>
 		<div class="large-8 small-6 mobile-12 columns">
-			<div class="panel">
+			<div class="panel" style='margin-bottom:0;'>
 				<div class="row collapse">
 					<div class="large-6 small-12 mobile-12 columns">
 						<div class='small button secondary' style='margin-bottom:0;' data-dropdown="drop-menu">
@@ -72,7 +80,6 @@ function phpsum_words($min = 1, $max = 1) {
 						  <?php include('_menu-list.php');?>
 						  
 						</ul>
-
 						
 						<img src="http://placehold.it/30x30&text=fb">
 						<img src="http://placehold.it/30x30&text=tw">
@@ -92,9 +99,9 @@ function phpsum_words($min = 1, $max = 1) {
 						</form>
 					</div>
 				</div>
-				<div class="row taxonomy-buttons hide-for-medium-up">
+				<div class="row taxonomy-buttons <?php if ($header_taxonomy_menus) echo "hide-for-medium-up";?>">
 					<div class="small-6 columns">
-						<a href="#" class="small button secondary dropdown small-12" style='margin-bottom:0;' data-dropdown="drop1">Regions</a>
+						<a href="#" class="small button secondary dropdown small-12" style='margin-bottom:0;margin-top:.5em;' data-dropdown="drop1">Regions</a>
 
 						<ul id="drop1" class="f-dropdown" data-dropdown-content>
 						  <li><a href="#">This is a link</a></li>
@@ -106,7 +113,7 @@ function phpsum_words($min = 1, $max = 1) {
 					</div>
 					<div class="small-6 columns">
 
-						<a href="#"  class="small button secondary dropdown small-12 columns" style='margin-bottom:0;' data-dropdown="drop2">Topics</a>
+						<a href="#"  class="small button secondary dropdown small-12 columns" style='margin-bottom:0;margin-top:.5em;' data-dropdown="drop2">Topics</a>
 						<ul id="drop2" class="f-dropdown content" data-dropdown-content>
 						  <li><a href="#">This is a link</a></li>
 						  <li><a href="#">This is another</a></li>
@@ -120,6 +127,7 @@ function phpsum_words($min = 1, $max = 1) {
 		</div>
 		
 	</div>
+	<?php if ($header_taxonomy_menus) : ?>
 	<div class='row taxonomy hide-for-small'>
 		<div class='large-12 columns'>
 			<div class="section-container horizontal-nav" data-section="horizontal-nav" data-options="one_up: false;">
@@ -175,6 +183,7 @@ function phpsum_words($min = 1, $max = 1) {
 			<div class="button dropdown secondary">All Topics</div>
 		</div>-->
 	</div>
+	<?php endif;// $header_taxonomy_menus?>
 	<hr>
 
 
