@@ -43,8 +43,8 @@
 				<div class='post-content large-11 columns'>
 					<p>
 						These wireframes are intended to be design-agnostic representations of the architectural layout
-						of the key templates in the Global Voices theme. In the final product elements should look <i>how</i>
-						they looks here, but they should be in roughly the positions where they are shown here. 
+						of the key templates in the Global Voices theme. In the final product elements should not 
+						look <i>how</i> they appear here, but they should be in roughly the positions you see.
 					</p>
 					<p>
 						The <a href='http://foundation.zurb.com/'>Foundation</a> CSS/JS framework was used because it allows rapid prototyping of different layouts
