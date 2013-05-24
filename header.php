@@ -19,6 +19,9 @@ function phpsum_words($min = 1, $max = 1) {
  * Define settings that can be used to alter behavior
  */
 $header_taxonomy_menus = true;
+
+if (isset($_GET['collapsed_taxonomies']) AND $_GET['collapsed_taxonomies'])
+	$header_taxonomy_menus = false;
 //$full_regions = true;
 
 ?>
