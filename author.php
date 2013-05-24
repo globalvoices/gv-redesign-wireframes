@@ -3,9 +3,9 @@
 
 <div class="row">
 	<div class="small-12 columns">
-		<h3 class="inline-block">
+		<h2 class="inline-block">
 			AUTHOR NAME <small class='hide-for-mobile'>999 posts &middot; Joined Jan 1 1970</small>
-		</h3>
+		</h2>
 	</div>
 </div>
 <div class="row">

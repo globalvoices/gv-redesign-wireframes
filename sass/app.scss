@@ -53,6 +53,7 @@
 @media #{$mobilescreen} {
 	.mobile-12 {
 		width: 100%;
+		margin-bottom: .5em;
 	}
 	.hide-for-mobile {
 		display: none;

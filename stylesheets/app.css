@@ -6537,29 +6537,30 @@ a.th {
   /* line 54, ../sass/app.scss */
   .mobile-12 {
     width: 100%;
+    margin-bottom: .5em;
   }
 
-  /* line 57, ../sass/app.scss */
+  /* line 58, ../sass/app.scss */
   .hide-for-mobile {
     display: none;
   }
 
-  /* line 60, ../sass/app.scss */
+  /* line 61, ../sass/app.scss */
   .show-for-mobile {
     display: inherit;
   }
 
-  /* line 63, ../sass/app.scss */
+  /* line 64, ../sass/app.scss */
   form.custom .custom.dropdown {
     margin-bottom: 0;
   }
 }
-/* line 65, ../sass/app.scss */
+/* line 66, ../sass/app.scss */
 .featured-posts {
   /*@extend .hide-for-small;*/
 }
 
-/* line 71, ../sass/app.scss */
+/* line 72, ../sass/app.scss */
 #INLINE-BLOCK,
 .inline-block {
   display: inline-block;

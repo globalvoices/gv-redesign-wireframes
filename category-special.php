@@ -3,9 +3,7 @@
 
 <div class="row">
 	<div class="small-12 columns">
-			<img src="http://placehold.it/750x150&text=special+category+logo" style='margin-bottom:1em;'>
-		
-		
+		<img src="http://placehold.it/750x150&text=special+category+logo" style='margin-bottom:1em;'>
 	</div>
 <!--	<div class='small-4 columns'>
 		<div class='panel'>

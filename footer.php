@@ -12,10 +12,10 @@
 		<div class='panel'>
 			<h3>SUBSCRIBE</h3>
 			<ul class='small-block-grid-2 large-block-grid-4'>
-				<li><img src="http://placehold.it/75x75"></li>
-				<li><img src="http://placehold.it/75x75"></li>
-				<li><img src="http://placehold.it/75x75"></li>
-				<li><img src="http://placehold.it/75x75"></li>
+				<li><img src="http://placehold.it/75x75&text=tw"></li>
+				<li><img src="http://placehold.it/75x75&text=fb"></li>
+				<li><img src="http://placehold.it/75x75&text=g"></li>
+				<li><img src="http://placehold.it/75x75&text=tb"></li>
 			</ul>
 			<form class="custom">
 				<input type='text' placeholder='email'>

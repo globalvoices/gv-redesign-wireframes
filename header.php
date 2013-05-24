@@ -74,10 +74,10 @@ function phpsum_words($min = 1, $max = 1) {
 						</ul>
 
 						
-						<img src="http://placehold.it/30x30&text=FB">
-						<img src="http://placehold.it/30x30&text=TW">
-						<img src="http://placehold.it/30x30&text=G">
-						<img src="http://placehold.it/30x30&text=TB">
+						<img src="http://placehold.it/30x30&text=fb">
+						<img src="http://placehold.it/30x30&text=tw">
+						<img src="http://placehold.it/30x30&text=g">
+						<img src="http://placehold.it/30x30&text=tb">
 					</div>
 					<div class="large-6 small-12 mobile-12 columns">
 						<form style='margin-bottom:0;'>
@@ -92,32 +92,33 @@ function phpsum_words($min = 1, $max = 1) {
 						</form>
 					</div>
 				</div>
+				<div class="row taxonomy-buttons hide-for-medium-up">
+					<div class="small-6 columns">
+						<a href="#" class="small button secondary dropdown small-12" style='margin-bottom:0;' data-dropdown="drop1">Regions</a>
+
+						<ul id="drop1" class="f-dropdown" data-dropdown-content>
+						  <li><a href="#">This is a link</a></li>
+						  <li><a href="#">This is another</a></li>
+						  <li><a href="#">Yet another</a></li>
+						</ul>
+
+
+					</div>
+					<div class="small-6 columns">
+
+						<a href="#"  class="small button secondary dropdown small-12 columns" style='margin-bottom:0;' data-dropdown="drop2">Topics</a>
+						<ul id="drop2" class="f-dropdown content" data-dropdown-content>
+						  <li><a href="#">This is a link</a></li>
+						  <li><a href="#">This is another</a></li>
+						  <li><a href="#">Yet another</a></li>
+						</ul>	
+
+					</div>
+				</div>
 			</div>
+			
 		</div>
 		
-	</div>
-	<div class="row taxonomy-buttons hide-for-medium-up">
-		<div class="small-6 columns">
-			<a href="#" class="small button secondary dropdown small-12" data-dropdown="drop1">Regions</a>
-
-			<ul id="drop1" class="f-dropdown" data-dropdown-content>
-			  <li><a href="#">This is a link</a></li>
-			  <li><a href="#">This is another</a></li>
-			  <li><a href="#">Yet another</a></li>
-			</ul>
-
-			
-		</div>
-		<div class="small-6 columns">
-			
-			<a href="#"  class="small button secondary dropdown small-12 columns" data-dropdown="drop2">Topics</a>
-			<ul id="drop2" class="f-dropdown content" data-dropdown-content>
-			  <li><a href="#">This is a link</a></li>
-			  <li><a href="#">This is another</a></li>
-			  <li><a href="#">Yet another</a></li>
-			</ul>	
-			
-		</div>
 	</div>
 	<div class='row taxonomy hide-for-small'>
 		<div class='large-12 columns'>

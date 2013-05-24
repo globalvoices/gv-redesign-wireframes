@@ -3,9 +3,9 @@
 
 <div class="row">
 	<div class="small-12 columns">
-		<h3 class="inline-block">
+		<h2 class="inline-block">
 			CATEGORY NAME <small class='hide-for-mobile'> &laquo; <A>PARENT</a> &laquo; <a>GRANDPARENT</a></small>
-		</h3>
+		</h2>
 		<div class='panel hide-for-small'>
 			<ul class='inline-list'>
 				<?php
