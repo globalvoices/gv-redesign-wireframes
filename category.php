@@ -16,7 +16,7 @@
 
 				
 					echo "<li><a href='#'>$lipsum_name</a></li>";
-					$lipsum_name = phpsum_words(2);
+					$lipsum_name = phpsum_words(1, 2);
 					$i++;
 				endwhile;
 				?>

@@ -6,8 +6,8 @@ include ('lorem-phpsum.php');
 /**
  * Wrapper to easily generate random Lorum words
  */
-function phpsum_words($count = 1) {
-	return phpsum(1, $count, array(
+function phpsum_words($min = 1, $max = 1) {
+	return phpsum($min, $max, array(
 		'minCharsInWords' => 6,
 		'lorem' => 'false',
 		'periods' => 'false',
@@ -37,7 +37,7 @@ function phpsum_words($count = 1) {
 		<div class="large-12 columns">
 			<div class="panel hide-for-small">
 				<p>
-					TRANSLATIONS: Lorem, Ipsum, Dolor, Sit, Amet, Consectetur, Adipiscing, Elit, Donec, Piscing, Elit, Τύπος, Манифест, Лингва, للمدونين, অনুবাদকেরা, 번역팀, 关于全球之声, <a href="">Learn more &raquo;</a>
+					<small>TRANSLATIONS: Lorem, Ipsum, Dolor, Sit, Amet, Consectetur, Adipiscing, Elit, Donec, Piscing, Elit, Τύπος, Манифест, Лингва, للمدونين, অনুবাদকেরা, 번역팀, 关于全球之声, <a href="">Learn more &raquo;</a></small>
 				</p>					
 			</div>
 			<div class='small button secondary dropdown hide-for-medium-up' data-dropdown="drop-langs">
@@ -74,10 +74,10 @@ function phpsum_words($count = 1) {
 						</ul>
 
 						
-						<img src="http://placehold.it/30x30">
-						<img src="http://placehold.it/30x30">
-						<img src="http://placehold.it/30x30">
-						<img src="http://placehold.it/30x30">
+						<img src="http://placehold.it/30x30&text=FB">
+						<img src="http://placehold.it/30x30&text=TW">
+						<img src="http://placehold.it/30x30&text=G">
+						<img src="http://placehold.it/30x30&text=TB">
 					</div>
 					<div class="large-6 small-12 mobile-12 columns">
 						<form style='margin-bottom:0;'>
