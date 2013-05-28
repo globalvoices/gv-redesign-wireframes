@@ -17,22 +17,7 @@
 				<li><img src="http://placehold.it/75x75&text=g"></li>
 				<li><img src="http://placehold.it/75x75&text=tb"></li>
 			</ul>
-			<form class="custom">
-				<input type='text' placeholder='email'>
-				  <label for="radio1">
-				    <input name="radio1" type="radio" id="radio1" style="display:none;">
-				    <span class="custom radio"></span> Daily
-				  </label>
-				  <label for="radio1">
-				    <input name="radio1" type="radio" id="radio1" style="display:none;">
-				    <span class="custom radio"></span> Weekly
-				  </label>
-				  <label for="radio1">
-				    <input name="radio1" type="radio" id="radio1" style="display:none;">
-				    <span class="custom radio"></span> Announcements
-				  </label>
-				<input type='submit' value='Subscribe'>
-			</form>
+			<?php include('_email-form.php');?>
 		</div>
 	</div>
 	<div class='large-3 small-6 mobile-12  columns'>
