@@ -18,8 +18,8 @@
 				</div>
 			<?php else :?>
 				<div class="panel">
-					<h4>Pitch/Action</h4>
-					<p> In sit amet orci feugiat mi pretium lobortis. <a href='#'>Lorum &raquo;</a> </p>
+										<?php include('_email-form.php');?>
+
 					<h4>Advocacy Pitch</h4>
 					<p> Ultricies vitae tincidunt vitae, semper id mi. <a href='#'>Ipsum &raquo;</a></p>
 					<h4>Rising Voices </h4>
