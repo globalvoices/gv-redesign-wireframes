@@ -143,15 +143,7 @@
 			
 			<!--<h3>IDENTITY/PROJECTS</h3>-->
 
-			<h3>Recommended Posts 1</h3>
-			<div class="panel">
-				<h4>HEADLINE</h4>
-				<h4>HEADLINE</h4>
-				<h4>HEADLINE</h4>
-				<h4>HEADLINE</h4>
-				<h4>HEADLINE</h4>
-			</div>
-			<h3>Recommended Posts 2</h3>
+			<h3>Recommended Posts</h3>
 			<div class="panel">
 				<h4>HEADLINE</h4>
 				<h4>HEADLINE</h4>
