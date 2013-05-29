@@ -18,6 +18,9 @@ function phpsum_words($min = 1, $max = 1) {
 /**
  * Define settings that can be used to alter behavior
  */
+if (isset($_GET['header_single_taxonomy_menu']) AND $_GET['header_single_taxonomy_menu'])
+	$header_single_taxonomy_menu = true;
+
 $header_taxonomy_menus = true;
 
 if (isset($_GET['collapsed_taxonomies']) AND $_GET['collapsed_taxonomies'])
@@ -148,7 +151,26 @@ $homepage_promo_widgets = true;
 		</div>
 		
 	</div>
-	<?php if ($header_taxonomy_menus) : ?>
+	<?php if ($header_single_taxonomy_menu) :?>
+		<div class='row hide-for-small'>
+			<div class='large-12 columns'>
+				<ul class='button-group' style='height:2em;overflow:hidden;'>
+					<li><a href='category-multi.php' class="small button secondary">Africa</a></li>
+					<li><a href='category-multi.php' class="small button secondary">Americas</a></li>
+					<li><a href='category-multi.php' class="small button secondary">Asia</a></li>
+					<li><a href='category-multi.php' class="small button secondary">Europe</a></li>
+					<li><a href='category-multi.php' class="small button secondary">Middle East</a></li>
+					<li><a href='category.php' class="small button secondary">Politics</a></li>
+					<li><a href='category.php' class="small button secondary">Human Rights</a></li>
+					<li><a href='category.php' class="small button secondary">Arts & Culture</a></li>
+					<li><a href='category.php' class="small button secondary">Video</a></li>
+					<li><a href='category.php' class="small button secondary">Photos</a></li>
+					<li><a href='category.php' class="small button secondary dropdown ">More</a></li>
+				</ul>
+			</div>
+		</div>
+
+	<?php elseif ($header_taxonomy_menus) : ?>
 	<div class='row taxonomy hide-for-small'>
 		<div class='large-12 columns'>
 			<div class="section-container horizontal-nav" data-section="horizontal-nav" data-options="one_up: false;">
@@ -184,7 +206,11 @@ $homepage_promo_widgets = true;
 					";
 				endwhile;
 				?>
-
+				<section>
+					<p class='title' data-section-title>
+						<a href='?header_single_taxonomy_menu=1'>[show unified taxonomy menu]</a>	
+					</p>
+				</section>
 			</div>
 		</div>
 		<div class='large-12 columns'>
