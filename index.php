@@ -18,7 +18,7 @@
 				</div>
 			<?php else :?>
 				<div class="panel">
-										<?php include('_email-form.php');?>
+					<?php include('_email-form.php');?>
 
 					<h4>Advocacy Pitch</h4>
 					<p> Ultricies vitae tincidunt vitae. <a href='#'>Ipsum &raquo;</a></p>

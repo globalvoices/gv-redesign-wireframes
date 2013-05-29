@@ -57,7 +57,7 @@ $homepage_promo_widgets = true;
 			<div class='small button secondary dropdown hide-for-medium-up' data-dropdown="drop-langs">
 				Trâñ$ Låñªg µµary 
 			</div>
-
+			
 			<ul id="drop-langs" class="f-dropdown inline-list" data-dropdown-content>
 			  <li><a href="#">Lang 1</a></li>
 			  <li><a href="#">Lang 2</a></li>
@@ -80,19 +80,32 @@ $homepage_promo_widgets = true;
 			<div class="panel" style='margin-bottom:0;'>
 				<div class="row collapse">
 					<div class="large-6 small-12 mobile-12 columns">
-						<div class='small button secondary' style='margin-bottom:0;' data-dropdown="drop-menu">
-							MENU &#9776;
-						</div>
 
-						<ul id="drop-menu" class="f-dropdown" data-dropdown-content>
-						  <?php include('_menu-list.php');?>
-						  
-						</ul>
-						
-						<img src="http://placehold.it/30x30&text=fb">
-						<img src="http://placehold.it/30x30&text=tw">
-						<img src="http://placehold.it/30x30&text=g">
-						<img src="http://placehold.it/30x30&text=tb">
+							<div class='small button secondary' style='margin-bottom:.5em;' data-dropdown="drop-menu">
+								Menu &#9776;
+							</div>
+
+							<ul id="drop-menu" class="f-dropdown" data-dropdown-content>
+							  <?php include('_menu-list.php');?>
+
+							</ul>
+							<span class="subscribe-button button small secondary dropdown inline-block" style=' margin-bottom:.5em;' data-dropdown="drop-faceted">
+								Subscribe 
+							</span>
+							<div id="drop-faceted" class="f-dropdown medium content" data-dropdown-content>
+								<?php include('_email-form.php');?>
+
+								<p>
+									<span class="button small secondary"><a>Like on Facebook</a></span>
+									<span class="button small secondary"><a>Follow on Twitter</a></span>
+								</p>
+								<p>
+									<img src="http://placehold.it/30x30&text=g">
+									<img src="http://placehold.it/30x30&text=tb">
+									<img src="http://placehold.it/30x30&text=ln">
+								</p>
+							</div>	
+
 					</div>
 					<div class="large-6 small-12 mobile-12 columns">
 						<form style='margin-bottom:0;'>
