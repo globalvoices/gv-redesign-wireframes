@@ -81,13 +81,16 @@
 		</div>
 	</div>
 		<hr>
-		
+			
 		<div class='row'>
-			<div class="large-12 columns">
+			<div class="large-8 columns">
 				<h3>LATEST POSTS ABOUT CATEGORY NAME</h3>
+				<?php include('_post-summaries.php') ?>
 			</div>
-			<?php include('_post-summaries.php') ?>
-
+			<div class="large-4 columns">
+				<h3>QUICK READS</h3>
+				<?php include('_quickreads.php');?>
 			</div>
 		</div>	
+		
 <?php include('footer.php');?>

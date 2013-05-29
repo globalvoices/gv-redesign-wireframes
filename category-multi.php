@@ -95,11 +95,13 @@
 		<hr>
 		
 		<div class='row'>
-			<div class="large-12 columns">
-				<h3>LATEST POSTS <del>ABOUT CATEGORY NAME</del></h3>
+			<div class="large-8 columns">
+				<h3>LATEST POSTS</h3>
+				<?php include('_post-summaries.php') ?>
 			</div>
-			<?php include('_post-summaries.php') ?>
-
+			<div class="large-4 columns">
+				<h3>QUICK READS</h3>
+				<?php include('_quickreads.php');?>
 			</div>
-		</div>	
+		</div>		
 <?php include('footer.php');?>

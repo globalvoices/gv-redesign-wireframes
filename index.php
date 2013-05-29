@@ -54,28 +54,31 @@
 		<div class='row'>
 			<div class="large-8 columns">
 				<h3>LATEST POSTS</h3>
+				<?php include('_post-summaries.php') ?>
 			</div>
 			<div class="large-4 columns">
 				<h3>QUICK READS</h3>
+				<?php include('_quickreads.php');?>
 			</div>
-			<?php include('_post-summaries.php') ?>
 		</div>
 		<hr>
 		<div class='row'>
 			<h3>OPTIONAL USER AVATAR BUFFET	</h3>
-			<div class='panel text-center'>
-				<img src="http://placehold.it/75x75&text=avatar">
-				<img src="http://placehold.it/75x75&text=avatar">
-				<img src="http://placehold.it/75x75&text=avatar">
-				<img src="http://placehold.it/75x75&text=avatar">
-				<img src="http://placehold.it/75x75&text=avatar">
-				<img src="http://placehold.it/75x75&text=avatar">
-				<img src="http://placehold.it/75x75&text=avatar">
-				<img src="http://placehold.it/75x75&text=avatar">
-				<img src="http://placehold.it/75x75&text=avatar">
-				<img src="http://placehold.it/75x75&text=avatar">
-				<img src="http://placehold.it/75x75&text=avatar">
-				<img src="http://placehold.it/75x75&text=avatar">
+			<div class='panel text-center' >
+				<div style='height:75px;overflow:hidden;'>
+					<img src="http://placehold.it/75x75&text=avatar">
+					<img src="http://placehold.it/75x75&text=avatar">
+					<img src="http://placehold.it/75x75&text=avatar">
+					<img src="http://placehold.it/75x75&text=avatar">
+					<img src="http://placehold.it/75x75&text=avatar">
+					<img src="http://placehold.it/75x75&text=avatar">
+					<img src="http://placehold.it/75x75&text=avatar">
+					<img src="http://placehold.it/75x75&text=avatar">
+					<img src="http://placehold.it/75x75&text=avatar">
+					<img src="http://placehold.it/75x75&text=avatar">
+					<img src="http://placehold.it/75x75&text=avatar">
+					<img src="http://placehold.it/75x75&text=avatar">
+				</div>	
 			</div>
 		</div>
 		
