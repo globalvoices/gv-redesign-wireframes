@@ -23,8 +23,10 @@ $header_taxonomy_menus = true;
 if (isset($_GET['collapsed_taxonomies']) AND $_GET['collapsed_taxonomies'])
 	$header_taxonomy_menus = false;
 
-if (isset($_GET['special_coverage_homepage']) AND $_GET['special_coverage_homepage'])
+//if (isset($_GET['special_coverage_homepage']) AND $_GET['special_coverage_homepage'])
 	$special_coverage_homepage = true;
+
+$homepage_promo_widgets = true;
 //$full_regions = true;
 
 ?>
