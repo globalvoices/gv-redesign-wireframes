@@ -178,15 +178,14 @@ $homepage_promo_widgets = true;
 				
 				$region_names = array(
 					'',
-					'[METAREGIONS]',
-					'Quisque',
-					'Consequat',
-					'Henderit',
-					'Ultrices',
-					'Aenean',
+					'Africa',
+					'Americas',
+					'Asia',
+					'Europe',
+					'Middle East',
 				);
 				$i = 0;
-				while ($i < 6) :
+				while ($i < 5) :
 					$i++;
 					echo " <section>
 					    <p class='title' data-section-title><b><a href='#panel1'>{$region_names[$i]} </a></b></p>
@@ -215,14 +214,13 @@ $homepage_promo_widgets = true;
 		</div>
 		<div class='large-12 columns'>
 			<ul class='button-group'>
-				<li><a href='#' class="small button secondary">[TOPICS]</a></li>
-				<li><a href='#' class="small button secondary">LORUM IPSUM</a></li>
-				<li><a href='#' class="small button secondary">DOLOR</a></li>
-				<li><a href='#' class="small button secondary">ESQUIMET</a></li>
-				<li><a href='#' class="small button secondary">SIT AMET</a></li>
-				<li><a href='#' class="small button secondary">LECTUS VELIT</a></li>
-				<li><a href='#' class="small button secondary">VENEATIS</a></li>
-				<li><a href='#' class="small button secondary">VESTIBULUM</a></li>
+				<li><a href='category.php' class="small button secondary">Politics</a></li>
+				<li><a href='category.php' class="small button secondary">Digital Activism</a></li>
+				<li><a href='category.php' class="small button secondary">Human Rights</a></li>
+				<li><a href='category.php' class="small button secondary">War & Conflict</a></li>
+				<li><a href='category.php' class="small button secondary">Arts & Culture</a></li>
+				<li><a href='category.php' class="small button secondary">Video</a></li>
+				<li><a href='category.php' class="small button secondary">Photos</a></li>
 				<li><a href='#' class="small button secondary dropdown ">All Topics</a></li>
 			</ul>
 		</div>	
