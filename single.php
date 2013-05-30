@@ -10,7 +10,10 @@
 		<div class='post-column large-8 columns'>
 			<div class='row'>
 				<div class='large-12 columns'>
-					<img src="http://placehold.it/750x300&text=featured+image" style='margin-bottom:1em;'>
+					<img src="http://placehold.it/750x300&text=featured+image" style='margin-bottom:0;'>
+					<div style='background:#333; padding:.5em;color:#eee;margin-bottom:1em;'>
+						<small>Photo (cc) PHOTO SOURCE NAME</small>
+					</div>
 					<div class="row taxonomy-buttons hide-for-medium-up">
 						<div class="small-6 columns">
 							<a href="#" class="small button secondary dropdown small-12" data-dropdown="drop-posttrans">Translations</a>
@@ -36,13 +39,15 @@
 					</div>
 					
 				</div>
+				<div class='small-12 columns'>
+					<p><i>By <a>AUTHOR NAME</a> • Translated by <a>TRANSLATOR NAME</a></i></p>
+				</div>
 				<div class='large-1 columns' style='padding-right:0;'>
 					<img src="http://placehold.it/30x30&text=tw" style='margin-bottom:.5em;'>
 					<img src="http://placehold.it/30x30&text=fb" style='margin-bottom:.5em;'>
 					<img src="http://placehold.it/30x30&text=g+" style='margin-bottom:.5em;'>
 				</div>
 				<div class='post-content large-11 columns'>
-					
 					<?php echo phpsum(50, 100, 3)?>
 					
 					<p>
