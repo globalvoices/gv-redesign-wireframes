@@ -185,13 +185,12 @@ $homepage_promo_widgets = true;
 								<li><a href='category.php'>Sub-Saharan Africa</a></li>
 								<li><a href='category.php'>Western Europe</a></li>
 							</ul>
+							<a>All regions and countries &raquo;</a>
 						</div>
 						<div class='large-9 small-6 columns'>
 							<b><a>Topics</a></b>
 							<div class='row'>
-								
 								<div class='large-4 small-12 columns'>
-
 									<ul class='side-nav'>
 											<li class=""><a href="http://test.globalvoicesonline.org/-/topics/arts-culture/" rel="tag">Arts &amp; Culture</a></li>
 											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/breaking-news/" rel="tag">Breaking News</a></li>
@@ -249,10 +248,9 @@ $homepage_promo_widgets = true;
 							</div>	
 						</div>
 					</div>
-					
 				</div>
 			</div>
-		</div>
+		</div> 
 
 	<?php elseif ($header_taxonomy_menus) : ?>
 	<div class='row taxonomy hide-for-small'>

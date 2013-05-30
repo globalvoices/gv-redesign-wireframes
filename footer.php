@@ -2,7 +2,7 @@
 <div class='row'>
 	<div class='large-3 small-6 mobile-12 columns'>
 		<div class='panel'>
-			<h3>PAGE NAVIGATION</h3>
+			<h3>Learn More</h3>
 			<ul class='side-nav'>
 				  <?php include('_menu-list.php');?>
 			</ul>
@@ -10,7 +10,7 @@
 	</div>
 	<div class='large-3 small-6 mobile-12  columns'>
 		<div class='panel'>
-			<h3>SUBSCRIBE</h3>
+			<h3>Subscribe</h3>
 			<ul class='small-block-grid-2 large-block-grid-4'>
 				<li><img src="http://placehold.it/75x75&text=tw"></li>
 				<li><img src="http://placehold.it/75x75&text=fb"></li>
@@ -22,7 +22,7 @@
 	</div>
 	<div class='large-3 small-6 mobile-12  columns'>
 		<div class='panel'>
-			<h3>LICENSE INFO</h3>
+			<h3>Copyright</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sapien lacus, non adipiscing leo.</p>
 			<img src="http://placehold.it/200x50">
 			
@@ -30,7 +30,7 @@
 	</div>	
 	<div class='large-3 small-6 mobile-12  columns'>
 		<div class='panel'>
-			<h3>FUNDERS</h3>
+			<h3>Funders</h3>
 			<img src="http://placehold.it/200x50&text=funder+logo">
 			<img src="http://placehold.it/200x50&text=funder+logo">
 			<img src="http://placehold.it/200x50&text=funder+logo">
