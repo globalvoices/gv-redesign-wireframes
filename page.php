@@ -56,7 +56,7 @@
 						Note that you can access the full list of wireframes at any time using the <b>Menu</b>
 						button in the header or the list of links in the footer. 
 					</p>
-					<ul>
+					<ul class='side-nav'>
 						<?php include('_menu-list.php');?>
 					</ul>
 					
@@ -83,32 +83,22 @@
 					</p>
 					
 					<p>
-						<i>Posted on [date] &middot; <a>View original version</a></i> &middot;
+						<i>Last modified on [date] &middot; <a>View original version</a></i> &middot;
 						<img src="http://placehold.it/30x30&text=tw" style='margin-bottom:.5em;'>
 						<img src="http://placehold.it/30x30&text=fb" style='margin-bottom:.5em;'>
 						<img src="http://placehold.it/30x30&text=g+" style='margin-bottom:.5em;'>
 					</p>
 				</div>
 			</div>
-			<div class='row'>
+<!--			<div class='row'>
 				
 				<div class='large-6 columns'>
-					<h3>Child/Sibling Pages</h3>
+					<h3>More About Us</h3>
 					<div class='panel'>
-						<ul>
-							<?php include('_menu-list.php');?>
-						</ul>
+						<?php include('_page-menu.php');?>
 					</div>
 				</div>	
-				<div class='large-6 columns'>
-					<h3>Other Pages</h3>
-					<div class='panel'>
-						<ul>
-							<?php include('_menu-list.php');?>
-						</ul>
-					</div>
-				</div>
-			</div>
+			</div>-->
 			
 			<h3>Recommended Posts</h3>
 			<div class='row'>
@@ -136,9 +126,10 @@
 
 		</div>
 		<div class="large-4 columns">
-			<div class="hide-for-small">
-				<h3>Translations</h3>
-			    <div class="panel">
+			<div class="section-container auto hide-for-small" data-section>
+			  <section>
+			    <p class="title" data-section-title><a href="#panel1">Translations</a></p>
+			    <div class="content" data-section-content>
 				    <ul style='list-style:none;'>
 					    <?php 
 					    $i = 0;
@@ -152,20 +143,14 @@
 					    ?>
 				    </ul>
 			    </div>
+			  </section>
+			 
 			  
 			</div>
 			
-			<h3>Child/Sibling Pages</h3>
+			<h3>ALL PAGES</h3>
 			<div class='panel'>
-				<ul>
-					<?php include('_menu-list.php');?>
-				</ul>
-			</div>
-			<h3>Other Pages</h3>
-			<div class='panel'>
-				<ul>
-					<?php include('_menu-list.php');?>
-				</ul>
+				<?php include('_page-menu.php');?>
 			</div>
 
 			<h3>Recommended Posts 1</h3>
