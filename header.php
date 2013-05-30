@@ -18,7 +18,7 @@ function phpsum_words($min = 1, $max = 1) {
 /**
  * Define settings that can be used to alter behavior
  */
-if (isset($_GET['header_single_taxonomy_menu']) AND $_GET['header_single_taxonomy_menu'])
+//if (isset($_GET['header_single_taxonomy_menu']) AND $_GET['header_single_taxonomy_menu'])
 	$header_single_taxonomy_menu = true;
 
 $header_taxonomy_menus = true;
