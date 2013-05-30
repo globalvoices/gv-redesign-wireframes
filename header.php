@@ -92,10 +92,10 @@ $homepage_promo_widgets = true;
 							  <?php include('_menu-list.php');?>
 
 							</ul>
-							<span class="subscribe-button button small secondary dropdown inline-block" style=' margin-bottom:.5em;' data-dropdown="drop-faceted">
+							<span class="subscribe-button button small secondary dropdown inline-block" style=' margin-bottom:.5em;' data-dropdown="drop-subscribe">
 								Subscribe 
 							</span>
-							<div id="drop-faceted" class="f-dropdown medium content" data-dropdown-content>
+							<div id="drop-subscribe" class="f-dropdown medium content" data-dropdown-content>
 								<?php include('_email-form.php');?>
 
 								<p>
@@ -165,8 +165,92 @@ $homepage_promo_widgets = true;
 					<li><a href='category.php' class="small button secondary">Arts & Culture</a></li>
 					<li><a href='category.php' class="small button secondary">Video</a></li>
 					<li><a href='category.php' class="small button secondary">Photos</a></li>
-					<li><a href='category.php' class="small button secondary dropdown ">More</a></li>
+					<li><a href='category.php' class="small button secondary dropdown " data-dropdown="drop-unified-taxonomy">More</a></li>
 				</ul>
+
+				<div id="drop-unified-taxonomy" style='width:100%' class="f-dropdown large content" data-dropdown-content>
+					<div class='row'>
+						<div class='large-3 small-6 columns'>
+							<b><a>World</a></b>
+							<ul class='side-nav'>
+								<li><a href='category.php'>	Caribbean</a></li>
+								<li><a href='category.php'>	Central Asia & Caucasus</a></li>
+								<li><a href='category.php'>East Asia</a></li>
+								<li><a href='category.php'>Eastern & Central Europe</a></li>
+								<li><a href='category.php'>Latin America</a></li>
+								<li><a href='category.php'>Middle East & North Africa</a></li>
+								<li><a href='category.php'>North America</a></li>
+								<li><a href='category.php'>Oceania</a></li>
+								<li><a href='category.php'>South Asia</a></li>
+								<li><a href='category.php'>Sub-Saharan Africa</a></li>
+								<li><a href='category.php'>Western Europe</a></li>
+							</ul>
+						</div>
+						<div class='large-9 small-6 columns'>
+							<b><a>Topics</a></b>
+							<div class='row'>
+								
+								<div class='large-4 small-12 columns'>
+
+									<ul class='side-nav'>
+											<li class=""><a href="http://test.globalvoicesonline.org/-/topics/arts-culture/" rel="tag">Arts &amp; Culture</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/breaking-news/" rel="tag">Breaking News</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/citizen-media/" rel="tag">Citizen Media</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/development/" rel="tag">Development</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/digital-activism/" rel="tag">Digital Activism</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/disaster/" rel="tag">Disaster</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/economics-business/" rel="tag">Economics &amp; Business</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/education/" rel="tag">Education</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/elections/" rel="tag">Elections</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/environment/" rel="tag">Environment</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/ethnicity-race/" rel="tag">Ethnicity &amp; Race</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/film/" rel="tag">Film</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/food/" rel="tag">Food</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/freedom-of-speech/" rel="tag">Freedom of Speech</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/gay-rights-lgbt/" rel="tag">Gay Rights (LGBT)</a></li>
+									</ul>
+								</div>	
+								<div class='large-4 columns'>
+									<ul class='side-nav'>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/governance/" rel="tag">Governance</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/health/" rel="tag">Health</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/history/" rel="tag">History</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/human-rights/" rel="tag">Human Rights</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/humanitarian-response/" rel="tag">Humanitarian Response</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/humor/" rel="tag">Humor</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/ideas/" rel="tag">Ideas</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/indigenous/" rel="tag">Indigenous</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/international-relations/" rel="tag">International Relations</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/labor/" rel="tag">Labor</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/language/" rel="tag">Language</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/law/" rel="tag">Law</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/literature/" rel="tag">Literature</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/media-journalism/" rel="tag">Media &amp; Journalism</a></li>
+									</ul>
+								</div>	
+								<div class='large-4 columns'>
+									<ul class='side-nav'>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/migration-immigration/" rel="tag">Migration &amp; Immigration</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/music/" rel="tag">Music</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/photography/" rel="tag">Photography</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/politics/" rel="tag">Politics</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/protest/" rel="tag">Protest</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/refugees/" rel="tag">Refugees</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/religion/" rel="tag">Religion</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/science/" rel="tag">Science</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/sport/" rel="tag">Sport</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/technology/" rel="tag">Technology</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/travel/" rel="tag">Travel</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/war-conflict/" rel="tag">War &amp; Conflict</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/women-gender/" rel="tag">Women &amp; Gender</a></li>
+											<li class="taxonomy-list-item taxonomy-list-item-topics"><a href="http://test.globalvoicesonline.org/-/topics/youth/" rel="tag">Youth</a></li>
+									</ul>
+								</div>
+							</div>	
+						</div>
+					</div>
+					
+				</div>
 			</div>
 		</div>
 
