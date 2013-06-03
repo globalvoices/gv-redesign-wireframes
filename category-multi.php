@@ -4,9 +4,9 @@
 <div class="row">
 	<div class="small-12 columns">
 		<h2 class="inline-block">
-			<a href=''>Americas</a>
+			Americas
 		</h2>
-		<span style='padding-left:1em;font-weight:bold;'>Posts in <a href='category.php'>Caribbean</a> or <a href='category.php'>Latin America</a> or <a href='category.php'>North America</a></span>
+		<span style='padding-left:1em;font-weight:bold;'> <a href='category.php'>Caribbean</a> &middot; <a href='category.php'>Latin America</a> &middot; <a href='category.php'>North America</a></span>
 <!--		<div class='panel hide-for-small'>
 			<ul class='inline-list'>
 				<?php
@@ -23,88 +23,78 @@
 		
 	</div>
 
-	<div class="show-for-mobile small-12 columns">
-		<span class="button small secondary dropdown " data-dropdown="drop-cat-tools" style="width:100%">
-			Category Tools
-		</span>
 
-		<div id="drop-cat-tools" class="f-dropdown medium content" data-dropdown-content>
-					<span class="button small secondary"><a>RSS for these categories</a></span>
-
-		  	<form class='custom inline-block'>
-			 <select id="customDropdown1" class="medium">
-			   <option>Children of Category</option>
-			   <option>Sibling Category</option>
-			   <option>Sibling Category</option>
-			   <option>Sibling Category</option>
-			 </select>
-			</form>	
-			<form class='custom inline-block'>
-			 <select id="customDropdown1" class="medium">
-			   <option>Monthly Archives for these categories</option>
-			   <option>Month</option>
-			   <option>Month</option>
-			   <option>Month</option>
-			 </select>
-			</form>
-					<span class="button small secondary"><a>Refine Results</a></span>
-
-		</div>				
-
-	</div>
 </div>
 	<div class="row hero">
 		<?php include('_featured-posts.php');?>
-				<div class="large-4 columns hide-for-mobile">
-
-			<span class="button small secondary"><a>RSS for Category</a></span>
-			<span class="button small secondary dropdown inline-block" style='margin-left:1em' data-dropdown="drop-faceted">
+			<div class="large-4 columns hide-for-mobile">
+			<span class="button small secondary"><a>RSS: Americas</a></span>
+			<span class="button small secondary dropdown inline-block" data-dropdown="drop-child-terms">
+				Monthly Archives: Americas
+			</span>
+			<div id="drop-child-terms" class="f-dropdown medium " data-dropdown-content>
+				<ul class="side-nav">
+					<li>[Month / Year]</li>
+					<li>[Month / Year]</li>
+					<li>[Month / Year]</li>
+					<li>[Month / Year]</li>
+					<li>[Month / Year]</li>
+					<li>[Month / Year]</li>
+					<li>[Month / Year]</li>
+					<li>[Month / Year]</li>
+				</ul>
+			</div>
+			<span class="button small secondary dropdown inline-block" data-dropdown="drop-faceted">
 				Refine results
 			</span>
 
 			<div id="drop-faceted" class="f-dropdown medium content" data-dropdown-content>
 			  <p>Options to mix in a second category or remove a category</p>
 			</div>
+
 			
-			<form class='custom inline-block'>
-			 <select id="customDropdown1" class="medium">
-			   <option>Countries in Caribbean</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			 </select>
-			 <select id="customDropdown1" class="medium">
-			   <option>Countries in Latin America</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			 </select>
-			 <select id="customDropdown1" class="medium">
-			   <option>Countries in North America</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			   <option>CHILD COUNTRY</option>
-			 </select>
-				
-			 <select id="customDropdown1" class="medium">
-			   <option>Monthly Archives for Category</option>
-			   <option>Month</option>
-			   <option>Month</option>
-			   <option>Month</option>
-			 </select>
-			</form>
+			<span class="button small secondary dropdown inline-block"  data-dropdown="drop-child-terms">
+				Countries in Caribbean
+			</span>
+			<div id="drop-child-terms" class="f-dropdown medium" data-dropdown-content>
+				<ul class="side-nav">
+					<li>Country in Latin America</li>
+					<li>Country in Latin America</li>
+					<li>Country in Latin America</li>
+					<li>Country in Latin America</li>
+					<li>Country in Latin America</li>
+					<li>Country in Latin America</li>
+				</ul>
+			</div>
+			<span class="button small secondary dropdown inline-block"  data-dropdown="drop-child-terms">
+				Countries in Latin America
+			</span>
+			<div id="drop-child-terms" class="f-dropdown medium" data-dropdown-content>
+				<ul class="side-nav">
+					<li>Country in Latin America</li>
+					<li>Country in Latin America</li>
+					<li>Country in Latin America</li>
+					<li>Country in Latin America</li>
+					<li>Country in Latin America</li>
+					<li>Country in Latin America</li>
+				</ul>
+			</div>
+			<span class="button small secondary dropdown inline-block"  data-dropdown="drop-child-terms">
+				Countries in North America
+			</span>
+			<div id="drop-child-terms" class="f-dropdown medium" data-dropdown-content>
+				<ul class="side-nav">
+					<li>Country in Latin America</li>
+					<li>Country in Latin America</li>
+					<li>Country in Latin America</li>
+					<li>Country in Latin America</li>
+					<li>Country in Latin America</li>
+					<li>Country in Latin America</li>
+				</ul>
+			</div>
+
+			
+			
 
 		</div>
 	</div>
