@@ -88,7 +88,7 @@ $em-base: 16px !default;
  $small-screen: emCalc(768px);
 
  $mobile-screen: emCalc(480px);
-// $medium-screen: emCalc(1280px);
+ $medium-screen: emCalc(1280px);
 // $large-screen: emCalc(1440px);
 
 
@@ -100,6 +100,7 @@ $em-base: 16px !default;
 // $portrait: "only screen and (orientation: portrait)";
 
 $mobilescreen: "only screen and (max-width: #{$mobile-screen})";
+$smallscreen: "only screen and (max-width: #{$small-screen})";
 //
 // Grid Variables
 //

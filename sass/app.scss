@@ -50,6 +50,11 @@
 .show-for-mobile {
 	display:none;
 }
+@media #{$smallscreen} {
+		.small-inline-block {
+			display:inline-block !important;
+		}
+}
 @media #{$mobilescreen} {
 	.mobile-12 {
 		width: 100%;
@@ -59,7 +64,10 @@
 		display: none;
 	}
 	.show-for-mobile {
-		display: inherit;
+		display: inherit !important;
+	}
+	.mobile-inline-block {
+		display: inline-block !important;
 	}
 	form.custom .custom.dropdown {margin-bottom:0;}
 }

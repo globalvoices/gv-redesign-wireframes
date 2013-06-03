@@ -79,5 +79,13 @@
   <script>
     $(document).foundation();
   </script>
+  		<script type='text/javascript'>
+			$(document).ready(
+			function($) {
+				$('#menu-button').click(function(){
+					$('#header-menu').toggleClass('hide-for-mobile');
+				});
+			});
+		</script>
 </body>
 </html>

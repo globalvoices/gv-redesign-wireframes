@@ -54,14 +54,14 @@ $homepage_promo_widgets = true;
 		<div class="large-12 columns">
 			<div class="panel hide-for-small">
 				<p>
-					<small>TRANSLATIONS: Lorem, Ipsum, Dolor, Sit, Amet, Consectetur, Adipiscing, Elit, Donec, Piscing, Elit, Τύπος, Манифест, Лингва, للمدونين, অনুবাদকেরা, 번역팀, 关于全球之声, <a href="">Learn more &raquo;</a></small>
+					<small>Languages <span style="letter-spacing:.2em;"><big>يእ</big>ΩЖ译</span>: Lorem, Ipsum, Dolor, Sit, Amet, Consectetur, Adipiscing, Elit, Donec, Piscing, Elit, Τύπος, Манифест, Лингва, للمدونين, অনুবাদকেরা, 번역팀, 关于全球之声, <a href="">Learn more &raquo;</a></small>
 				</p>					
 			</div>
 			<div class='small button secondary dropdown hide-for-medium-up' data-dropdown="drop-langs">
-				Trâñ$ Låñªg µµary 
+				Languages <span style="letter-spacing:.2em;"><big>يእ</big>ΩЖ译 </span>
 			</div>
 			
-			<ul id="drop-langs" class="f-dropdown inline-list" data-dropdown-content>
+			<ul id="drop-langs" class="f-dropdown large inline-list" data-dropdown-content>
 			  <li><a href="#">Lang 1</a></li>
 			  <li><a href="#">Lang 2</a></li>
 			  <li><a href="#">Lang 3</a></li>
@@ -73,19 +73,22 @@ $homepage_promo_widgets = true;
 		</div>
 	</div>	
 	<div class="row">
-		<div class="large-4 small-6 mobile-12 columns">
+		<div class="large-4 small-4 mobile-12 columns">
 			<a href='index.php'>
 				<img src="http://placehold.it/300x100&text=LOGO" style="margin-bottom:1.25em">
 			</a>	
 
 		</div>
-		<div class="large-8 small-6 mobile-12 columns">
-			<div class="panel" style='margin-bottom:0;'>
+		<span class="menu-button button small secondary show-for-mobile mobile-inline-block" id="menu-button" style='margin-bottom:.5em;' data-dropdown="drop-menu">
+			Menu &#9776;
+		</span>
+
+		<div id="header-menu" class="header-menu large-8 small-8 mobile-12 hide-for-mobile columns">
 				<div class="row collapse">
 					<div class="large-6 small-12 mobile-12 columns">
 
-							<div class='small button secondary' style='margin-bottom:.5em;' data-dropdown="drop-menu">
-								Menu &#9776;
+							<div class='small button secondary dropdown' style='margin-bottom:.5em;' data-dropdown="drop-menu">
+								About Us
 							</div>
 
 							<ul id="drop-menu" class="f-dropdown" data-dropdown-content>
@@ -107,7 +110,26 @@ $homepage_promo_widgets = true;
 									<img src="http://placehold.it/30x30&text=tb">
 									<img src="http://placehold.it/30x30&text=ln">
 								</p>
-							</div>	
+							</div>
+							<span class="subscribe-button button small secondary dropdown small-inline-block hide-for-medium-up" style=' margin-bottom:.5em;' data-dropdown="drop-regions">
+								Regions
+							</span>
+
+							<ul id="drop-regions" class="f-dropdown" data-dropdown-content>
+							  <li><a href="#">This is a link</a></li>
+							  <li><a href="#">This is another</a></li>
+							  <li><a href="#">Yet another</a></li>
+							</ul>
+							<span class="subscribe-button button small secondary dropdown inline-block small-inline-block hide-for-medium-up" style=' margin-bottom:.5em;' data-dropdown="drop-topics">
+								Topics
+							</span>
+
+							<ul id="drop-regions" class="f-dropdown" data-dropdown-content>
+							  <li><a href="#">This is a link</a></li>
+							  <li><a href="#">This is another</a></li>
+							  <li><a href="#">Yet another</a></li>
+							</ul>
+
 
 					</div>
 					<div class="large-6 small-12 mobile-12 columns">
@@ -122,8 +144,7 @@ $homepage_promo_widgets = true;
 							 </div>
 						</form>
 					</div>
-				</div>
-				<div class="row taxonomy-buttons <?php if ($header_taxonomy_menus) echo "hide-for-medium-up";?>">
+<!--				<div class="row taxonomy-buttons <?php if ($header_taxonomy_menus) echo "hide-for-medium-up";?>">
 					<div class="small-6 columns">
 						<a href="#" class="small button secondary dropdown small-12" style='margin-bottom:0;margin-top:.5em;' data-dropdown="drop1">Regions</a>
 
@@ -136,7 +157,7 @@ $homepage_promo_widgets = true;
 
 					</div>
 					<div class="small-6 columns">
-
+					
 						<a href="#"  class="small button secondary dropdown small-12 columns" style='margin-bottom:0;margin-top:.5em;' data-dropdown="drop2">Topics</a>
 						<ul id="drop2" class="f-dropdown content" data-dropdown-content>
 						  <li><a href="#">This is a link</a></li>
@@ -145,7 +166,7 @@ $homepage_promo_widgets = true;
 						</ul>	
 
 					</div>
-				</div>
+				</div>-->
 			</div>
 			
 		</div>
@@ -311,6 +332,5 @@ $homepage_promo_widgets = true;
 		</div>-->
 	</div>
 	<?php endif;// $header_taxonomy_menus?>
-	<hr>
 
 
