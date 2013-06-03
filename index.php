@@ -2,7 +2,7 @@
 
 
 
-	<div class="row hero">
+	<div class="row hero" style="margin-top:1em;">
 				<?php include('_featured-posts.php');?>
 
 		<div class="large-4 columns">
