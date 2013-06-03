@@ -102,22 +102,22 @@
 			
 			<h3>Recommended Posts</h3>
 			<div class='row'>
-				<div class='large-6 columns'>
+				<div class='small-6 mobile-12 columns'>
 					<div class='panel'>
 						<h4>HEADLINE</h4>
 					</div>
 				</div>
-				<div class='large-6 columns'>
+				<div class='small-6 mobile-12 columns'>
 					<div class='panel'>
 						<h4>HEADLINE</h4>
 					</div>
 				</div>
-				<div class='large-6 columns'>
+				<div class='small-6 mobile-12 columns'>
 					<div class='panel'>
 						<h4>HEADLINE</h4>
 					</div>
 				</div>
-				<div class='large-6 columns'>
+				<div class='small-6 mobile-12 columns'>
 					<div class='panel'>
 						<h4>HEADLINE</h4>
 					</div>

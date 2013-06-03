@@ -75,22 +75,22 @@
 			</div>
 			<h3>Recommended Posts</h3>
 			<div class='row'>
-				<div class='large-6 columns'>
+				<div class='small-6 mobile-12 columns'>
 					<div class='panel'>
 						<h4>HEADLINE</h4>
 					</div>
 				</div>
-				<div class='large-6 columns'>
+				<div class='small-6 mobile-12 columns'>
 					<div class='panel'>
 						<h4>HEADLINE</h4>
 					</div>
 				</div>
-				<div class='large-6 columns'>
+				<div class='small-6 mobile-12 columns'>
 					<div class='panel'>
 						<h4>HEADLINE</h4>
 					</div>
 				</div>
-				<div class='large-6 columns'>
+				<div class='small-6 mobile-12 columns'>
 					<div class='panel'>
 						<h4>HEADLINE</h4>
 					</div>
@@ -147,27 +147,27 @@
 			</div>
 			
 			<!--<h3>IDENTITY/PROJECTS</h3>-->
+			<div class="hide-for-mobile">
+				<h3>Recommended Posts</h3>
+				<div class="panel">
+					<h4>HEADLINE</h4>
+					<h4>HEADLINE</h4>
+					<h4>HEADLINE</h4>
+					<h4>HEADLINE</h4>
+					<h4>HEADLINE</h4>
+				</div>
 
-			<h3>Recommended Posts</h3>
-			<div class="panel">
-				<h4>HEADLINE</h4>
-				<h4>HEADLINE</h4>
-				<h4>HEADLINE</h4>
-				<h4>HEADLINE</h4>
-				<h4>HEADLINE</h4>
-			</div>
-			
-			<h3>Random Promo 1</h3>
-			<div class="panel">
-				<img src="http://placehold.it/300x100&text=BADGE">
-				<p>Donec elementum eleifend nunc ut ultrices. Suspendisse potenti. Donec lacinia laoreet elit, nec ultrices sapien pretium tristique. Duis sed neque a lorem aliquam lacinia nec sed erat. Vestibulum in risus in justo tincidunt dapibus.</p>
-			</div>
-			<h3>Random Promo 2</h3>
-			<div class="panel">
-				<img src="http://placehold.it/300x100&text=BADGE">
-				<p>Donec elementum eleifend nunc ut ultrices. Suspendisse potenti. Donec lacinia laoreet elit, nec ultrices sapien pretium tristique. Duis sed neque a lorem aliquam lacinia nec sed erat. Vestibulum in risus in justo tincidunt dapibus.</p>
-			</div>
-			
+				<h3>Random Promo 1</h3>
+				<div class="panel">
+					<img src="http://placehold.it/300x100&text=BADGE">
+					<p>Donec elementum eleifend nunc ut ultrices. Suspendisse potenti. Donec lacinia laoreet elit, nec ultrices sapien pretium tristique. Duis sed neque a lorem aliquam lacinia nec sed erat. Vestibulum in risus in justo tincidunt dapibus.</p>
+				</div>
+				<h3>Random Promo 2</h3>
+				<div class="panel">
+					<img src="http://placehold.it/300x100&text=BADGE">
+					<p>Donec elementum eleifend nunc ut ultrices. Suspendisse potenti. Donec lacinia laoreet elit, nec ultrices sapien pretium tristique. Duis sed neque a lorem aliquam lacinia nec sed erat. Vestibulum in risus in justo tincidunt dapibus.</p>
+				</div>
+			</div>			
 		</div>
 	</div>
 </div>	
