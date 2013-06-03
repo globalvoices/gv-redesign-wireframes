@@ -6547,31 +6547,36 @@ a.th {
   }
 
   /* line 63, ../sass/app.scss */
+  .mobile-8 {
+    width: 66.66667%;
+  }
+
+  /* line 66, ../sass/app.scss */
   .hide-for-mobile {
     display: none;
   }
 
-  /* line 66, ../sass/app.scss */
+  /* line 69, ../sass/app.scss */
   .show-for-mobile {
     display: inherit !important;
   }
 
-  /* line 69, ../sass/app.scss */
+  /* line 72, ../sass/app.scss */
   .mobile-inline-block {
     display: inline-block !important;
   }
 
-  /* line 72, ../sass/app.scss */
+  /* line 75, ../sass/app.scss */
   form.custom .custom.dropdown {
     margin-bottom: 0;
   }
 }
-/* line 74, ../sass/app.scss */
+/* line 77, ../sass/app.scss */
 .featured-posts {
   /*@extend .hide-for-small;*/
 }
 
-/* line 80, ../sass/app.scss */
+/* line 83, ../sass/app.scss */
 #INLINE-BLOCK,
 .inline-block {
   display: inline-block;

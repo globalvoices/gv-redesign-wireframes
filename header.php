@@ -73,7 +73,7 @@ $homepage_promo_widgets = true;
 		</div>
 	</div>	
 	<div class="row">
-		<div class="large-4 small-4 mobile-12 columns">
+		<div class="large-4 small-6 mobile-8 columns">
 			<a href='index.php'>
 				<img src="http://placehold.it/300x100&text=LOGO" style="margin-bottom:1.25em">
 			</a>	
@@ -83,7 +83,7 @@ $homepage_promo_widgets = true;
 			Menu &#9776;
 		</span>
 
-		<div id="header-menu" class="header-menu large-8 small-8 mobile-12 hide-for-mobile columns">
+		<div id="header-menu" class="header-menu large-8 small-6 mobile-12 hide-for-mobile columns">
 				<div class="row collapse">
 					<div class="large-6 small-12 mobile-12 columns">
 
