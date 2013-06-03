@@ -35,12 +35,12 @@
 					</div>
 					
 				</div>
-				<div class='large-1 columns' style='padding-right:0;'>
+				<div class='small-1 mobile-12 columns' style='padding-right:0;'>
 					<img src="http://placehold.it/30x30&text=tw" style='margin-bottom:.5em;'>
 					<img src="http://placehold.it/30x30&text=fb" style='margin-bottom:.5em;'>
 					<img src="http://placehold.it/30x30&text=g+" style='margin-bottom:.5em;'>
 				</div>
-				<div class='post-content large-11 columns'>
+				<div class='post-content small-11 mobile-12 columns'>
 					<p>
 						These wireframes are intended to be design-agnostic representations of the architectural layout
 						of the key templates in the Global Voices theme. In the final product elements should not 
@@ -53,7 +53,7 @@
 					</p>
 					<h3>List of Wireframes</h3>
 					<p>
-						Note that you can access the full list of wireframes at any time using the <b>Menu</b>
+						Note that you can access the full list of wireframes at any time using the <b>Menu/About Us</b>
 						button in the header or the list of links in the footer. 
 					</p>
 					<ul class='side-nav'>
@@ -147,21 +147,25 @@
 			 
 			  
 			</div>
-			
+			<h3>Page custom widget</h3>
+			<div class='panel'>
+				<?php echo phpsum_words(100, 100);?>
+			</div>
 			<h3>ALL PAGES</h3>
 			<div class='panel'>
 				<?php include('_page-menu.php');?>
 			</div>
+			
 
-			<h3>Recommended Posts 1</h3>
+<!--			<h3>Recommended Posts 1</h3>
 			<div class="panel">
 				<h4>HEADLINE</h4>
 				<h4>HEADLINE</h4>
 				<h4>HEADLINE</h4>
 				<h4>HEADLINE</h4>
 				<h4>HEADLINE</h4>
-			</div>
-			
+			</div>-->
+<!--			
 			<h3>Random Promo 1</h3>
 			<div class="panel">
 				<img src="http://placehold.it/300x100&text=BADGE">
@@ -172,7 +176,7 @@
 				<img src="http://placehold.it/300x100&text=BADGE">
 				<p>Donec elementum eleifend nunc ut ultrices. Suspendisse potenti. Donec lacinia laoreet elit, nec ultrices sapien pretium tristique. Duis sed neque a lorem aliquam lacinia nec sed erat. Vestibulum in risus in justo tincidunt dapibus.</p>
 			</div>
-			
+			-->
 		</div>
 	</div>
 </div>	
